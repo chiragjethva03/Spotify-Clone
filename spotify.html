@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/logo.png" type="main_logo_">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web player:Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@700&family=Poppins:wght@500&family=Roboto:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <!-- start to Create side-bar section -->
+        <div class="side-bar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-sharp fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <!-- start to create other boxes inside the side-bar -->
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="Images/library_icon.png" alt="icon not found">
+                        <a href="#">Your Library </a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="boxes">
+                        <p class="p1">Create your first playlist</p>
+                        <p class="p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="boxes bo">
+                        <p class="p1">Let's find some podcasts to follow</p>
+                        <p class="p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Now start here to main class and first design stickey navigation -->
+        <div class="main-class">
+            <div class="sticky-nav">
+                <div class="sticky-icon">
+                    <img src="Images/backward_icon.png" alt="">
+                    <img src="Images/forward_icon.png" alt="" class="hide">
+                </div>
+                <div class="sticky-downlode">
+                    <button class="badge hide">Explore Premium</button>
+                    <button class="badge color "><i class="fa-solid fa-circle-arrow-down"></i>Install App</button>
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+
+            <!-- Finished here to navigation and start here to card section inside the main-class -->
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/card1img.jpeg" alt="img not found">
+                    <p class="card-title">Top-50 global</p>
+                    <p class="card-info">Your daily updates of the most played trackes....</p>
+                </div>
+            </div>
+
+            <div class="main-title">
+                <h2>Spotify Original & exclusive shows</h2>
+                <a href="#">shows all</a>
+            </div>
+            <div class="card-container-2">
+                <div class="card">
+                    <img src="Images/card2img.jpeg" alt="img not found">
+                    <p class="card-title">Mahiya jinna Sohna.!</p>
+                    <p class="card-info">Mahiya jinna Sohna..Trackes</p>
+                </div>
+                <div class="card">
+                    <img src="Images/card3img.jpeg" alt="img not found">
+                    <p class="card-title">Mere pass tum Ho.!</p>
+                    <p class="card-info">Mere pass tum Ho..Trackes</p>
+                </div>
+                <div class="card">
+                    <img src="Images/card4img.jpeg" alt="img not found">
+                    <p class="card-title">NAA Ready.!</p>
+                    <p class="card-info">Naa Ready.. Trackes</p>
+                </div>
+                <div class="card">
+                    <img src="Images/kesariya.jpg" alt="img not found">
+                    <p class="kesariya..!">kesariya..!</p>
+                    <p class="card-info">kesariya..Trackes</p>
+                </div>
+            </div>
+
+            <div class="main-title">
+                <h2>Try something else</h2>
+                <a href="#">shows all</a>
+            </div>
+            <div class="card-container-2">
+                <div class="card">
+                    <img src="Images/kesariya.jpg" alt="img not found">
+                    <p class="card-title">kesariya..!</p>
+                    <p class="card-info">kesariya..Trackes</p>
+                </div>
+                <div class="card">
+                    <img src="Images/dil jhoom.jpg" alt="img not found">
+                    <p class="card-title">Dill Jhoom.!</p>
+                    <p class="card-info">Dill Jhoon..trackes</p>
+                </div>
+                <div class="card">
+                    <img src="Images/satranga.jpg" alt="img not found">
+                    <p class="card-title">Satranga re.!</p>
+                    <p class="card-info">Satranga.. Trackes</p>
+                </div>
+                <div class="card">
+                    <img src="Images/arziyaan.jpg" alt="img not found">
+                    <p class="card-title">Arziyaan.!</p>
+                    <p class="card-info">Araziyaan..Trackes</p>
+                </div>
+            </div>
+
+            <div class="main-title">
+                <h2>Featured Charts</h2>
+                <a href="#">shows all</a>
+            </div>
+            <div class="card-container-2">
+                <div class="card">
+                    <img src="Images/card1img.jpeg" alt="img not found">
+                    <p class="card-title">Top-50 global</p>
+                    <p class="card-info">Your Daily update of the most played trackes right..</p>
+                </div>
+                <div class="card">
+                    <img src="Images/card5img.jpeg" alt="img not found">
+                    <p class="card-title">Top Songs global</p>
+                    <p class="card-info">Your weekly updates of the most played trackes....</p>
+                </div>
+                <div class="card">
+                    <img src="Images/card6img.jpeg" alt="img not found">
+                    <p class="card-title">Top Songs india</p>
+                    <p class="card-info">Your weekly updates of the most played trackes....</p>
+                </div>
+                <div class="card">
+                    <img src="Images/india.jpg" alt="img not found">
+                    <p class="card-title">Top-50 india</p>
+                    <p class="card-info">Your daily updates of the most played trackes....</p>
+                </div>
+            </div>
+
+            <div class="main-title">
+                <h2>Show to try</h2>
+                <a href="#">shows all</a>
+            </div>
+            <div class="card-container-2">
+                <div class="card">
+                    <img src="Images/the game song.jpg" alt="img not found">
+                    <p class="card-title">The Game Show</p>
+                    <p class="card-info">Alex Hormozi</p>
+                </div>
+                <div class="card">
+                    <img src="Images/Dr.jpg" alt="img not found">
+                    <p class="card-title">ENT SHIRT By Dr...</p>
+                    <p class="card-info">Dr Shivendra Singn Rajput</p>
+                </div>
+                <div class="card">
+                    <img src="Images/theunemployed.jpg" alt="img not found">
+                    <p class="card-title">Inspired Unemplo.</p>
+                    <p class="card-info">Spotify Studios</p>
+                </div>
+                <div class="card">
+                    <img src="Images/tony and ryan.jpg" alt="img not found">
+                    <p class="card-title">Tony and Ryan</p>
+                    <p class="card-info">Spotify Studios</p>
+                </div>
+            </div>
+
+            <!-- start here to page informations like footer -->
+            <div class="page-info">
+                <div class="company">
+                    <div class="company-title">Company</div>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">For the Record</a></li>
+                    </ul>
+                </div>
+                <div class="Comunities">
+                    <div class="comunities-title">Communities</div>
+                    <ul>
+                        <li><a href="#">For Artists</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Investor</a></li>
+                        <li><a href="#">Vendors</a></li>
+                    </ul>
+
+                </div>
+                <div class="links">
+                    <div class="link-title">Useful links</div>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Free Mobile App</a></li>
+                    </ul>
+
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <!-- start here to  footer -->
+            <div class="footer">
+                <div class="line">
+                    <div class="item-list">
+                        <ul>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Privacy center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookies</a></li>
+                            <li><a href="#">About Ads</a></li>
+                            <li><a href="#">Accessiblity</a></li>
+                        </ul>
+                    </div>
+                    <div class="copy">
+                        <p>&copy; 2023 Spotify</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Now created music-player that was fixed at bottom level -->
+        <div class="music-player">
+            <div class="first-player">
+                <div class="F-P-img">
+                    <img src="Images/satranga.jpg" alt="img not found">
+                </div>
+                <div class="F-P-info">
+                    <h3>Satranga.!</h3>
+                    <p>Nallanaa Murukku - The Rj Balaji Podcast</p>
+                </div>
+                <div class="plus-i">
+                    <i class="fa-solid fa-circle-plus"></i>
+                </div>
+            </div>
+
+            <div class="music-track">
+                <div class="player-control">
+                    <img src="Images/player_icon1.png" alt="player not found" class="player-control-icon">
+                    <img src="Images/player_icon2.png" alt="player not found" class="player-control-icon">
+                    <img src="Images/player_icon3.png" alt="player not found" class="player-control-icon"
+                        style="height: 2rem;opacity: 1; width: 2rem;">
+                    <img src="Images/player_icon4.png" alt="player not found" class="player-control-icon">
+                    <img src="Images/player_icon5.png" alt="player not found" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="20">
+                    <span class="total-time">4:10</span>
+                </div>
+            </div>
+
+            <div class="third-player">
+                <div class="third-player-icon">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-regular fa-address-book"></i>
+                </div>
+                <div class="sound">
+                    <i class="fa-solid fa-volume-low"></i>
+                    <input type="range" class="valume-range" min="0" max="100" step="20">
+                    <i class="fa-sharp fa-regular fa-window-restore"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
